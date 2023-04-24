@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Lobster+Two:wght@700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Baileys Bakery</title>
+
+</head>
+
+<body>
+<header>
+    <div class="nav">
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="order.html">Order Now</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li style="float:right"><a href="about.html">About</a></li>
+    </ul>
+</nav>
+</div>
+</header>
+<div class="norm">
+<h1>Baileys Bakery | Custom Order</h1>
+<p></p>
+<form action="http://www.BaileysBakery.com method="POST">
+
+<fieldset>
+<legend>Your Information:</legend>
+<ul>
+<li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li><br>
+<li>Address: <input type="text" name="address"></li><br>
+<li>Telephone Number: <input type="text" name="number"></li><br>
+<li>Email Address: <input type="text" name="email"></li><br>
+<li>Delivery Instructions: <br>
+    <textarea name="instructions" row="4" cols="60"
+    maxlength="400" placeholder="No more than 400 characters long"></textarea></li>
+</ul>
+</fieldset>
+<h2>Design Your Dream Treat:</h2>
+<fieldset>
+<legend>Sweets</legend>
+<fieldset>
+<legend>Type</legend>
+<ul>
+    <li><label><input type="radio" name="type" value="white">Cake</label></li><br>
+    <li><input type="radio" name="type" value="white">Cupcakes</li><br>
+    <li><input type="checkbox" name="flavor" value="white">Additional Information: <br> <textarea name="instructions" row="4" cols="60"
+        maxlength="400" placeholder="No more than 400 characters long"></textarea></li>
+    <br>
+    </fieldset>
+<fieldset>
+    <legend>Flavors</legend>
+<ul>
+<li><label><input type="checkbox" name="flavor" value="white">Chocolate</label></li><br>
+<li><input type="checkbox" name="flavor" value="white">Vanela</li><br>
+<li><input type="checkbox" name="flavor" value="white">Red Velvet</li><br>
+<li><input type="checkbox" name="flavor" value="white">Lemon</li><br>
+<li><input type="checkbox" name="flavor" value="white">Other: <br> <textarea name="instructions" row="4" cols="60"
+    maxlength="400" placeholder="No more than 400 characters long"></textarea></li><br>
+</ul>
+</fieldset>
+<fieldset>
+    <legend>Icing</legend>
+<ul>
+<li><input type="checkbox" name="iceing[]" value="white">Butter Cream</li><br>
+<li><input type="checkbox" name="iceing[]" value="white">Whipped Cream</li><br>
+<li><input type="checkbox" name="iceing[]" value="white">Royal Icing</li><br>
+<li><input type="checkbox" name="iceing[]" value="white">Meringue</li><br>
+<li><input type="checkbox" name="iceing[]" value="white">None</li><br>
+<li><input type="checkbox" name="icing" value="white">Other: <br> <textarea name="instructions" row="4" cols="60"
+    maxlength="400" placeholder="No more than 400 characters long"></textarea></li><br>
+</ul>   
+</fieldset>
+
+<fieldset>
+<legend>Number</legend>
+<p class="par">How many cakes: 
+    <select name="Cake" size="1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+    </select>
+</p>
+ or 
+<p class="par">How many cupcakes<em>(by the dozen)</em>: 
+    <select name="Cupcakes" size="1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+    </select>
+</p>
+</fieldset>
+</fieldset>
+
+<p class="par"><input type="submit" value="Order"><input type="reset"></p>
+</form>
+</div>
+</body>
+</html>

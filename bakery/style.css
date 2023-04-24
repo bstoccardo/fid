@@ -1,0 +1,80 @@
+/*Body*/
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 14px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    padding: 0 20%;
+}
+#product {
+    text-align: center;
+}
+#deliv {
+    background-color: #ffb3c4;
+    text-align: center;
+}
+#green {
+    background-color: #85c981;
+    text-align: center;
+}
+
+/*Product wall*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0;
+}
+row {
+    display: flex;
+}
+/*Button*/
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+/*Nav*/
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    text-transform: uppercase;
+}
+.nav li {
+    float: left;
+}
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: whitesmoke;
+}
+/*Order*/
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+.par {
+    padding: 0 0%;
+}
+fieldset {
+    border-color: #ffb3c4
+}
+.foot {
+    background-color:#85c981;
+    padding: 0% 0%;
+    
+}
+.marg {
+    text-align: center;
+}
